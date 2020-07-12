@@ -7,6 +7,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 import './App.css';
 import Ref from './components/Ref';
 import UseCallback from './components/UseCallback';
+import UseMemo from './components/UseMemo'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <p className="flow-text">
         count: {count}
       </p>
+      <UseMemo />
     </div>
   );
 }
